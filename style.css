@@ -2,6 +2,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* A class is more specific than an element,
+give more weight to a certain declaration */
+
 .para,
 .small-para {
   color: hsl(0, 0%, 0%);
@@ -49,7 +52,7 @@ body {
 
 }
 
-
+/* An id is even more specific or has more weight than a class */
 
 #child {
   color: rgb(0, 0, 0);
@@ -58,4 +61,7 @@ body {
   text-align:center;
 
 }
+
+/* An inline style is even more specific than an id ( Have not started with them yet ) */
+
 
